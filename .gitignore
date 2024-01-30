@@ -1,0 +1,18 @@
+# .gitignore
+
+# Exclude venv folder
+bin/
+include/
+lib/
+pyvenv.cfg
+
+# Exclude pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Exclude __pycache__ and .pyc files
+__pycache__/
+*.pyc
+
+# Exclude environment-specific files
+.env
